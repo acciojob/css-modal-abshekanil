@@ -1,7 +1,10 @@
 //your JS code here. If required.
-let modal = document.getElementsByClassName('modal')[0];
+document.addEventListener("DOMContentLoaded",function(){
+	
+
+let modal = document.querySelector('.modal');
 let openBtn = document.getElementById('openModal');
-let closeBtn = document.getElementsByClassName('close-modal')[0];
+let closeBtn = document.querySelector('.close-modal');
 
 openBtn.onclick = function(){
 	modal.style.display = "block";
@@ -17,3 +20,5 @@ window.onclick = function(event){
 		modal.style.display = "none";
 	}
 }
+
+	});
