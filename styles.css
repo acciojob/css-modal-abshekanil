@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+.modal-header{
+	background-color:lightgreen;
+	width:90vw;
+	margin:10px;
+	padding:10px;
+	margin-top:10px;
+}
+.modal{
+	background-color:grey;
+	height:200px;
+	display:none;
+	
+	
+}
+.close-modal{
+	
+	cursor:pointer;
+}
+#openModal{
+	cursor:pointer;
+}
+.modal-body{
+	margin:20px;
+}
